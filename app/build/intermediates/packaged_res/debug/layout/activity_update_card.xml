@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#4F5C5B"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context=".UpdateCard">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="Actualizar"
+            android:textColor="@color/white"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25px"
+            android:text="Número de espacio:"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/create_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/custom_edittetext"
+            android:hint="Digite el espacio"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25px"
+            android:text="Cédula:"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/create_dni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/custom_edittetext"
+            android:hint="Digite la cédula"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25px"
+            android:text="Placa:"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/create_placa"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/custom_edittetext"
+            android:hint="Digite la placa"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25px"
+            android:text="Nombre del cliente:"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/create_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/custom_edittetext"
+            android:hint="Digite el nombre del cliente"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25px"
+            android:text="Teléfono:"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/create_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/custom_edittetext"
+            android:hint="Digite el Telefono del cliente"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="#FFFFFF" />
+
+        <!--    <EditText-->
+        <!--        android:id="@+id/create_priority"-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:layout_marginTop="20dp"-->
+        <!--        android:hint="Priority"-->
+        <!--        android:padding="15dp"-->
+        <!--        android:background="@drawable/custom_edittetext"-->
+        <!--        android:textColorHint="#BFBBBB"-->
+        <!--        android:textColor="@color/white"-->
+        <!--        />-->
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25px"
+            android:text="Disponibilidad:"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/create_priority"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_edittetext" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25px"
+            android:text="Hora de Reserva:"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/etTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/custom_edittetext"
+            android:clickable="false"
+            android:focusable="false"
+            android:hint="Selecciona la hora"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="#FFFFFF" />
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/update_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Actualizar" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/delete_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E81616"
+                android:text="Eliminar" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+

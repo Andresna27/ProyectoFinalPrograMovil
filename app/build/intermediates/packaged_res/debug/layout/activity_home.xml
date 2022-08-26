@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B9373434"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:background="#000000"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cartaguito"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_logoff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#03A9F4"
+            android:text="Log Out" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:text="Reservas"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+        <!--        <Button-->
+        <!--            android:id="@+id/deleteAll"-->
+        <!--            android:layout_width="40dp"-->
+        <!--            android:layout_height="40dp"-->
+        <!--            android:layout_marginEnd="10dp"-->
+        <!--            android:backgroundTint="#FF5722"-->
+        <!--            android:text="X"-->
+        <!--            android:textAllCaps="false"-->
+        <!--            android:textColor="@color/black"-->
+        <!--            />-->
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/view" />
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/circular_button"
+            android:backgroundTint="#A33939"
+            android:drawableTint="#28c0fc"
+            android:text="+"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            app:rippleColor="#BD3F3F"
+            app:strokeColor="#851D1D" />
+    </FrameLayout>
+</LinearLayout>

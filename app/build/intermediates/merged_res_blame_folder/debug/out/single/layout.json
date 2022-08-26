@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "com.proyectofinal.app-mergeDebugResources-47:/layout/view.xml",
+        "source": "com.proyectofinal.app-main-50:/layout/view.xml"
+    },
+    {
+        "merged": "com.proyectofinal.app-mergeDebugResources-47:/layout/spinner_item_disponibilidad.xml",
+        "source": "com.proyectofinal.app-main-50:/layout/spinner_item_disponibilidad.xml"
+    },
+    {
+        "merged": "com.proyectofinal.app-mergeDebugResources-47:/layout/activity_bienvenida.xml",
+        "source": "com.proyectofinal.app-main-50:/layout/activity_bienvenida.xml"
+    },
+    {
+        "merged": "com.proyectofinal.app-mergeDebugResources-47:/layout/activity_registrarse.xml",
+        "source": "com.proyectofinal.app-main-50:/layout/activity_registrarse.xml"
+    },
+    {
+        "merged": "com.proyectofinal.app-mergeDebugResources-47:/layout/activity_ingreso_datos2.xml",
+        "source": "com.proyectofinal.app-main-50:/layout/activity_ingreso_datos2.xml"
+    },
+    {
+        "merged": "com.proyectofinal.app-mergeDebugResources-47:/layout/activity_main.xml",
+        "source": "com.proyectofinal.app-main-50:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.proyectofinal.app-mergeDebugResources-47:/layout/activity_create_card.xml",
+        "source": "com.proyectofinal.app-main-50:/layout/activity_create_card.xml"
+    },
+    {
+        "merged": "com.proyectofinal.app-mergeDebugResources-47:/layout/fragment_home.xml",
+        "source": "com.proyectofinal.app-main-50:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.proyectofinal.app-mergeDebugResources-47:/layout/activity_mas_informacion.xml",
+        "source": "com.proyectofinal.app-main-50:/layout/activity_mas_informacion.xml"
+    },
+    {
+        "merged": "com.proyectofinal.app-mergeDebugResources-47:/layout/activity_time_picker.xml",
+        "source": "com.proyectofinal.app-main-50:/layout/activity_time_picker.xml"
+    },
+    {
+        "merged": "com.proyectofinal.app-mergeDebugResources-47:/layout/activity_contacto.xml",
+        "source": "com.proyectofinal.app-main-50:/layout/activity_contacto.xml"
+    },
+    {
+        "merged": "com.proyectofinal.app-mergeDebugResources-47:/layout/activity_update_card.xml",
+        "source": "com.proyectofinal.app-main-50:/layout/activity_update_card.xml"
+    },
+    {
+        "merged": "com.proyectofinal.app-mergeDebugResources-47:/layout/activity_home.xml",
+        "source": "com.proyectofinal.app-main-50:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.proyectofinal.app-mergeDebugResources-47:/layout/fragment_gallery.xml",
+        "source": "com.proyectofinal.app-main-50:/layout/fragment_gallery.xml"
+    },
+    {
+        "merged": "com.proyectofinal.app-mergeDebugResources-47:/layout/activity_splash_screen.xml",
+        "source": "com.proyectofinal.app-main-50:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "com.proyectofinal.app-mergeDebugResources-47:/layout/fragment_slideshow.xml",
+        "source": "com.proyectofinal.app-main-50:/layout/fragment_slideshow.xml"
+    }
+]

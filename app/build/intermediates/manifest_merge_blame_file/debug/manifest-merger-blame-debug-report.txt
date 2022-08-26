@@ -1,0 +1,311 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.proyectofinal"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\e43981f943c51bd075c1b3a0c4099de7\transformed\firebase-auth-21.0.3\AndroidManifest.xml:24:5-79
+12-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\e43981f943c51bd075c1b3a0c4099de7\transformed\firebase-auth-21.0.3\AndroidManifest.xml:24:22-76
+13
+14    <application
+14-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:8:5-68:19
+15        android:allowBackup="true"
+15-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:9:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.7.0] C:\Users\XCPC\.gradle\caches\transforms-3\1ecdadb10e50be4b7de3feaa28120cd7\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:icon="@mipmap/ic_launcher"
+19-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:10:9-43
+20        android:label="@string/app_name"
+20-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:11:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:12:9-54
+22        android:supportsRtl="true"
+22-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:13:9-35
+23        android:testOnly="true"
+24        android:theme="@style/Theme.ProyectoFinalPrograMovil" >
+24-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:14:9-62
+25        <activity
+25-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:15:9-17:40
+26            android:name="com.proyectofinal.Contacto"
+26-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:16:13-37
+27            android:exported="false" />
+27-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:17:13-37
+28        <activity
+28-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:18:9-20:40
+29            android:name="com.proyectofinal.MasInformacion"
+29-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:19:13-43
+30            android:exported="false" />
+30-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:20:13-37
+31        <activity
+31-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:21:9-23:40
+32            android:name="com.proyectofinal.TimePicker"
+32-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:22:13-39
+33            android:exported="false" /> <!-- <activity -->
+33-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:23:13-37
+34        <!-- android:name=".UpdateCard" -->
+35        <!-- android:exported="false" /> -->
+36        <!-- <activity -->
+37        <!-- android:name=".SplashScreen" -->
+38        <!-- android:exported="false" /> -->
+39        <!-- <activity -->
+40        <!-- android:name=".CreateCard" -->
+41        <!-- android:exported="false" /> -->
+42        <activity
+42-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:32:9-34:40
+43            android:name="com.proyectofinal.Registrarse"
+43-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:33:13-40
+44            android:exported="false" />
+44-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:34:13-37
+45        <activity
+45-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:35:9-37:40
+46            android:name="com.proyectofinal.Home"
+46-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:36:13-33
+47            android:exported="false" />
+47-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:37:13-37
+48        <activity
+48-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:38:9-42:81
+49            android:name="com.proyectofinal.Principal"
+49-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:39:13-38
+50            android:exported="false"
+50-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:40:13-37
+51            android:label="@string/title_activity_principal"
+51-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:41:13-61
+52            android:theme="@style/Theme.ProyectoFinalPrograMovil.NoActionBar" />
+52-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:42:13-78
+53        <activity
+53-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:43:9-45:40
+54            android:name="com.proyectofinal.IngresoDatos2"
+54-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:44:13-42
+55            android:exported="false" />
+55-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:45:13-37
+56        <activity
+56-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:46:9-48:40
+57            android:name="com.proyectofinal.ingresoDatos"
+57-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:47:13-41
+58            android:exported="false" />
+58-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:48:13-37
+59        <activity
+59-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:49:9-51:40
+60            android:name="com.proyectofinal.Bienvenida"
+60-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:50:13-39
+61            android:exported="false" />
+61-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:51:13-37
+62        <activity
+62-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:52:9-60:20
+63            android:name="com.proyectofinal.SplashScreen"
+63-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:53:13-41
+64            android:exported="true" >
+64-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:54:13-36
+65            <intent-filter>
+65-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:55:13-59:29
+66                <action android:name="android.intent.action.MAIN" />
+66-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:56:17-69
+66-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:56:25-66
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:58:17-77
+68-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:58:27-74
+69            </intent-filter>
+70        </activity>
+71        <activity
+71-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:61:9-63:58
+72            android:name="com.proyectofinal.UpdateCard"
+72-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:62:13-39
+73            android:windowSoftInputMode="adjustResize" />
+73-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:63:13-55
+74        <activity
+74-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:64:9-66:58
+75            android:name="com.proyectofinal.CreateCard"
+75-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:65:13-39
+76            android:windowSoftInputMode="adjustResize" />
+76-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:66:13-55
+77        <activity android:name="com.proyectofinal.MainActivity" />
+77-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:67:9-50
+77-->C:\Users\XCPC\Desktop\ProyectoMovilParking\app\src\main\AndroidManifest.xml:67:19-47
+78
+79        <service
+79-->[com.google.firebase:firebase-auth-ktx:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\f8f23f831f31528c6333d4103c8a54d2\transformed\firebase-auth-ktx-21.0.3\AndroidManifest.xml:8:9-14:19
+80            android:name="com.google.firebase.components.ComponentDiscoveryService"
+80-->[com.google.firebase:firebase-auth-ktx:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\f8f23f831f31528c6333d4103c8a54d2\transformed\firebase-auth-ktx-21.0.3\AndroidManifest.xml:9:13-84
+81            android:directBootAware="true"
+81-->[com.google.firebase:firebase-common:20.1.0] C:\Users\XCPC\.gradle\caches\transforms-3\bfe2d4df730419870206adfad100830f\transformed\firebase-common-20.1.0\AndroidManifest.xml:35:13-43
+82            android:exported="false" >
+82-->[com.google.firebase:firebase-auth-ktx:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\f8f23f831f31528c6333d4103c8a54d2\transformed\firebase-auth-ktx-21.0.3\AndroidManifest.xml:10:13-37
+83            <meta-data
+83-->[com.google.firebase:firebase-auth-ktx:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\f8f23f831f31528c6333d4103c8a54d2\transformed\firebase-auth-ktx-21.0.3\AndroidManifest.xml:11:13-13:85
+84                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar"
+84-->[com.google.firebase:firebase-auth-ktx:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\f8f23f831f31528c6333d4103c8a54d2\transformed\firebase-auth-ktx-21.0.3\AndroidManifest.xml:12:17-116
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[com.google.firebase:firebase-auth-ktx:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\f8f23f831f31528c6333d4103c8a54d2\transformed\firebase-auth-ktx-21.0.3\AndroidManifest.xml:13:17-82
+86            <meta-data
+86-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\e43981f943c51bd075c1b3a0c4099de7\transformed\firebase-auth-21.0.3\AndroidManifest.xml:67:13-69:85
+87                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+87-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\e43981f943c51bd075c1b3a0c4099de7\transformed\firebase-auth-21.0.3\AndroidManifest.xml:68:17-109
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\e43981f943c51bd075c1b3a0c4099de7\transformed\firebase-auth-21.0.3\AndroidManifest.xml:69:17-82
+89            <meta-data
+89-->[com.google.firebase:firebase-common-ktx:20.1.0] C:\Users\XCPC\.gradle\caches\transforms-3\777e3f85735504572498ade2bfaa2583\transformed\firebase-common-ktx-20.1.0\AndroidManifest.xml:15:13-17:85
+90                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+90-->[com.google.firebase:firebase-common-ktx:20.1.0] C:\Users\XCPC\.gradle\caches\transforms-3\777e3f85735504572498ade2bfaa2583\transformed\firebase-common-ktx-20.1.0\AndroidManifest.xml:16:17-113
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[com.google.firebase:firebase-common-ktx:20.1.0] C:\Users\XCPC\.gradle\caches\transforms-3\777e3f85735504572498ade2bfaa2583\transformed\firebase-common-ktx-20.1.0\AndroidManifest.xml:17:17-82
+92        </service>
+93
+94        <activity
+94-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\e43981f943c51bd075c1b3a0c4099de7\transformed\firebase-auth-21.0.3\AndroidManifest.xml:27:9-44:20
+95            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+95-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\e43981f943c51bd075c1b3a0c4099de7\transformed\firebase-auth-21.0.3\AndroidManifest.xml:28:13-80
+96            android:excludeFromRecents="true"
+96-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\e43981f943c51bd075c1b3a0c4099de7\transformed\firebase-auth-21.0.3\AndroidManifest.xml:29:13-46
+97            android:exported="true"
+97-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\e43981f943c51bd075c1b3a0c4099de7\transformed\firebase-auth-21.0.3\AndroidManifest.xml:30:13-36
+98            android:launchMode="singleTask"
+98-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\e43981f943c51bd075c1b3a0c4099de7\transformed\firebase-auth-21.0.3\AndroidManifest.xml:31:13-44
+99            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+99-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\e43981f943c51bd075c1b3a0c4099de7\transformed\firebase-auth-21.0.3\AndroidManifest.xml:32:13-72
+100            <intent-filter>
+100-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\e43981f943c51bd075c1b3a0c4099de7\transformed\firebase-auth-21.0.3\AndroidManifest.xml:33:13-43:29
+101                <action android:name="android.intent.action.VIEW" />
+101-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\e43981f943c51bd075c1b3a0c4099de7\transformed\firebase-auth-21.0.3\AndroidManifest.xml:34:17-69
+101-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\e43981f943c51bd075c1b3a0c4099de7\transformed\firebase-auth-21.0.3\AndroidManifest.xml:34:25-66
+102
+103                <category android:name="android.intent.category.DEFAULT" />
+103-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\e43981f943c51bd075c1b3a0c4099de7\transformed\firebase-auth-21.0.3\AndroidManifest.xml:36:17-76
+103-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\e43981f943c51bd075c1b3a0c4099de7\transformed\firebase-auth-21.0.3\AndroidManifest.xml:36:27-73
+104                <category android:name="android.intent.category.BROWSABLE" />
+104-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\e43981f943c51bd075c1b3a0c4099de7\transformed\firebase-auth-21.0.3\AndroidManifest.xml:37:17-78
+104-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\e43981f943c51bd075c1b3a0c4099de7\transformed\firebase-auth-21.0.3\AndroidManifest.xml:37:27-75
+105
+106                <data
+106-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\e43981f943c51bd075c1b3a0c4099de7\transformed\firebase-auth-21.0.3\AndroidManifest.xml:39:17-42:51
+107                    android:host="firebase.auth"
+107-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\e43981f943c51bd075c1b3a0c4099de7\transformed\firebase-auth-21.0.3\AndroidManifest.xml:40:21-49
+108                    android:path="/"
+108-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\e43981f943c51bd075c1b3a0c4099de7\transformed\firebase-auth-21.0.3\AndroidManifest.xml:41:21-37
+109                    android:scheme="genericidp" />
+109-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\e43981f943c51bd075c1b3a0c4099de7\transformed\firebase-auth-21.0.3\AndroidManifest.xml:42:21-48
+110            </intent-filter>
+111        </activity>
+112        <activity
+112-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\e43981f943c51bd075c1b3a0c4099de7\transformed\firebase-auth-21.0.3\AndroidManifest.xml:45:9-62:20
+113            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+113-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\e43981f943c51bd075c1b3a0c4099de7\transformed\firebase-auth-21.0.3\AndroidManifest.xml:46:13-79
+114            android:excludeFromRecents="true"
+114-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\e43981f943c51bd075c1b3a0c4099de7\transformed\firebase-auth-21.0.3\AndroidManifest.xml:47:13-46
+115            android:exported="true"
+115-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\e43981f943c51bd075c1b3a0c4099de7\transformed\firebase-auth-21.0.3\AndroidManifest.xml:48:13-36
+116            android:launchMode="singleTask"
+116-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\e43981f943c51bd075c1b3a0c4099de7\transformed\firebase-auth-21.0.3\AndroidManifest.xml:49:13-44
+117            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+117-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\e43981f943c51bd075c1b3a0c4099de7\transformed\firebase-auth-21.0.3\AndroidManifest.xml:50:13-72
+118            <intent-filter>
+118-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\e43981f943c51bd075c1b3a0c4099de7\transformed\firebase-auth-21.0.3\AndroidManifest.xml:51:13-61:29
+119                <action android:name="android.intent.action.VIEW" />
+119-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\e43981f943c51bd075c1b3a0c4099de7\transformed\firebase-auth-21.0.3\AndroidManifest.xml:34:17-69
+119-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\e43981f943c51bd075c1b3a0c4099de7\transformed\firebase-auth-21.0.3\AndroidManifest.xml:34:25-66
+120
+121                <category android:name="android.intent.category.DEFAULT" />
+121-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\e43981f943c51bd075c1b3a0c4099de7\transformed\firebase-auth-21.0.3\AndroidManifest.xml:36:17-76
+121-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\e43981f943c51bd075c1b3a0c4099de7\transformed\firebase-auth-21.0.3\AndroidManifest.xml:36:27-73
+122                <category android:name="android.intent.category.BROWSABLE" />
+122-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\e43981f943c51bd075c1b3a0c4099de7\transformed\firebase-auth-21.0.3\AndroidManifest.xml:37:17-78
+122-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\e43981f943c51bd075c1b3a0c4099de7\transformed\firebase-auth-21.0.3\AndroidManifest.xml:37:27-75
+123
+124                <data
+124-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\e43981f943c51bd075c1b3a0c4099de7\transformed\firebase-auth-21.0.3\AndroidManifest.xml:39:17-42:51
+125                    android:host="firebase.auth"
+125-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\e43981f943c51bd075c1b3a0c4099de7\transformed\firebase-auth-21.0.3\AndroidManifest.xml:40:21-49
+126                    android:path="/"
+126-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\e43981f943c51bd075c1b3a0c4099de7\transformed\firebase-auth-21.0.3\AndroidManifest.xml:41:21-37
+127                    android:scheme="recaptcha" />
+127-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\XCPC\.gradle\caches\transforms-3\e43981f943c51bd075c1b3a0c4099de7\transformed\firebase-auth-21.0.3\AndroidManifest.xml:42:21-48
+128            </intent-filter>
+129        </activity>
+130
+131        <uses-library
+131-->[androidx.window:window:1.0.0] C:\Users\XCPC\.gradle\caches\transforms-3\6defcf9f701d3b242883908db8f9d7ab\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+132            android:name="androidx.window.extensions"
+132-->[androidx.window:window:1.0.0] C:\Users\XCPC\.gradle\caches\transforms-3\6defcf9f701d3b242883908db8f9d7ab\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+133            android:required="false" />
+133-->[androidx.window:window:1.0.0] C:\Users\XCPC\.gradle\caches\transforms-3\6defcf9f701d3b242883908db8f9d7ab\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+134        <uses-library
+134-->[androidx.window:window:1.0.0] C:\Users\XCPC\.gradle\caches\transforms-3\6defcf9f701d3b242883908db8f9d7ab\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+135            android:name="androidx.window.sidecar"
+135-->[androidx.window:window:1.0.0] C:\Users\XCPC\.gradle\caches\transforms-3\6defcf9f701d3b242883908db8f9d7ab\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+136            android:required="false" />
+136-->[androidx.window:window:1.0.0] C:\Users\XCPC\.gradle\caches\transforms-3\6defcf9f701d3b242883908db8f9d7ab\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+137
+138        <provider
+138-->[com.google.firebase:firebase-common:20.1.0] C:\Users\XCPC\.gradle\caches\transforms-3\bfe2d4df730419870206adfad100830f\transformed\firebase-common-20.1.0\AndroidManifest.xml:26:9-31:39
+139            android:name="com.google.firebase.provider.FirebaseInitProvider"
+139-->[com.google.firebase:firebase-common:20.1.0] C:\Users\XCPC\.gradle\caches\transforms-3\bfe2d4df730419870206adfad100830f\transformed\firebase-common-20.1.0\AndroidManifest.xml:27:13-77
+140            android:authorities="com.proyectofinal.firebaseinitprovider"
+140-->[com.google.firebase:firebase-common:20.1.0] C:\Users\XCPC\.gradle\caches\transforms-3\bfe2d4df730419870206adfad100830f\transformed\firebase-common-20.1.0\AndroidManifest.xml:28:13-72
+141            android:directBootAware="true"
+141-->[com.google.firebase:firebase-common:20.1.0] C:\Users\XCPC\.gradle\caches\transforms-3\bfe2d4df730419870206adfad100830f\transformed\firebase-common-20.1.0\AndroidManifest.xml:29:13-43
+142            android:exported="false"
+142-->[com.google.firebase:firebase-common:20.1.0] C:\Users\XCPC\.gradle\caches\transforms-3\bfe2d4df730419870206adfad100830f\transformed\firebase-common-20.1.0\AndroidManifest.xml:30:13-37
+143            android:initOrder="100" />
+143-->[com.google.firebase:firebase-common:20.1.0] C:\Users\XCPC\.gradle\caches\transforms-3\bfe2d4df730419870206adfad100830f\transformed\firebase-common-20.1.0\AndroidManifest.xml:31:13-36
+144
+145        <activity
+145-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\XCPC\.gradle\caches\transforms-3\d9e7ca4110f1f227586597032836d5be\transformed\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+146            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+146-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\XCPC\.gradle\caches\transforms-3\d9e7ca4110f1f227586597032836d5be\transformed\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+147            android:exported="false"
+147-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\XCPC\.gradle\caches\transforms-3\d9e7ca4110f1f227586597032836d5be\transformed\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+148            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+148-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\XCPC\.gradle\caches\transforms-3\d9e7ca4110f1f227586597032836d5be\transformed\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+149
+150        <meta-data
+150-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\XCPC\.gradle\caches\transforms-3\726cd9159f02e251884a1af44016adfa\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+151            android:name="com.google.android.gms.version"
+151-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\XCPC\.gradle\caches\transforms-3\726cd9159f02e251884a1af44016adfa\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+152            android:value="@integer/google_play_services_version" />
+152-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\XCPC\.gradle\caches\transforms-3\726cd9159f02e251884a1af44016adfa\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+153
+154        <service
+154-->[androidx.room:room-runtime:2.3.0] C:\Users\XCPC\.gradle\caches\transforms-3\14d74ee1e0f6517ada036880adc0ce4d\transformed\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
+155            android:name="androidx.room.MultiInstanceInvalidationService"
+155-->[androidx.room:room-runtime:2.3.0] C:\Users\XCPC\.gradle\caches\transforms-3\14d74ee1e0f6517ada036880adc0ce4d\transformed\room-runtime-2.3.0\AndroidManifest.xml:26:13-74
+156            android:directBootAware="true"
+156-->[androidx.room:room-runtime:2.3.0] C:\Users\XCPC\.gradle\caches\transforms-3\14d74ee1e0f6517ada036880adc0ce4d\transformed\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
+157            android:exported="false" />
+157-->[androidx.room:room-runtime:2.3.0] C:\Users\XCPC\.gradle\caches\transforms-3\14d74ee1e0f6517ada036880adc0ce4d\transformed\room-runtime-2.3.0\AndroidManifest.xml:28:13-37
+158
+159        <provider
+159-->[androidx.emoji2:emoji2:1.0.0] C:\Users\XCPC\.gradle\caches\transforms-3\9f1ecbb9d18ba90062ad80c10afe9f7a\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+160            android:name="androidx.startup.InitializationProvider"
+160-->[androidx.emoji2:emoji2:1.0.0] C:\Users\XCPC\.gradle\caches\transforms-3\9f1ecbb9d18ba90062ad80c10afe9f7a\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+161            android:authorities="com.proyectofinal.androidx-startup"
+161-->[androidx.emoji2:emoji2:1.0.0] C:\Users\XCPC\.gradle\caches\transforms-3\9f1ecbb9d18ba90062ad80c10afe9f7a\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+162            android:exported="false" >
+162-->[androidx.emoji2:emoji2:1.0.0] C:\Users\XCPC\.gradle\caches\transforms-3\9f1ecbb9d18ba90062ad80c10afe9f7a\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+163            <meta-data
+163-->[androidx.emoji2:emoji2:1.0.0] C:\Users\XCPC\.gradle\caches\transforms-3\9f1ecbb9d18ba90062ad80c10afe9f7a\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+164                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+164-->[androidx.emoji2:emoji2:1.0.0] C:\Users\XCPC\.gradle\caches\transforms-3\9f1ecbb9d18ba90062ad80c10afe9f7a\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+165                android:value="androidx.startup" />
+165-->[androidx.emoji2:emoji2:1.0.0] C:\Users\XCPC\.gradle\caches\transforms-3\9f1ecbb9d18ba90062ad80c10afe9f7a\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+166            <meta-data
+166-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\XCPC\.gradle\caches\transforms-3\5ee2237b18494b74760ed7544d415a66\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+167                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+167-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\XCPC\.gradle\caches\transforms-3\5ee2237b18494b74760ed7544d415a66\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+168                android:value="androidx.startup" />
+168-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\XCPC\.gradle\caches\transforms-3\5ee2237b18494b74760ed7544d415a66\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+169        </provider>
+170    </application>
+171
+172</manifest>

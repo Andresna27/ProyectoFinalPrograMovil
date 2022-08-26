@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTintMode="src_over"
+    android:textAlignment="center">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#B9373434"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="52dp">
+
+
+        <TextView
+            android:id="@+id/textView47"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Informacion General"
+            android:textAlignment="center"
+            android:textColor="#EDF9FF"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView48"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="247dp"
+            app:srcCompat="@drawable/dsa" />
+
+        <TextView
+            android:id="@+id/textfadasdasdf"
+            android:layout_width="match_parent"
+            android:layout_height="265dp"
+            android:layout_marginTop="50px"
+            android:text="Parque Cartaguito de los mejores parqueos de la zona cuenta con 75 espacios para vehiculos y 15 espacios para motocicletas cumplimos con las medidas de seguridad para guardar su vehiculo 24/7. Contamos con reserva de espacio. Estamos para servirle! "
+            android:textAlignment="center"
+            android:textColor="#DBE6EC"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_volverInformacion"
+            android:layout_width="256dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250px"
+            android:backgroundTint="#03A9F4"
+            android:text="Volver"
+            android:textAlignment="center"
+            app:icon="@drawable/ic_baseline_arrow_back_24" />
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="369dp"
+            android:layout_height="55dp" />
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="match_parent"
+            android:layout_height="13dp" />
+
+
+    </LinearLayout>
+
+</ScrollView>
+

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IngresoDatos2">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="410dp"
+        android:layout_height="140dp"
+        android:background="#B9373434"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cartaguito"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_logoff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#03A9F4"
+            android:text="Log Out" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="407dp"
+        android:layout_height="572dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:text="Para reservar un espacio, Ingresa los siguientes Datos"
+            android:textAlignment="center"
+            android:textColor="#3B9363"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cédula" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Placa" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apellido" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Telefono" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#51B17F"
+            android:text="Reservar" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">72087602087-4dkpaub481d5314pcve83mfo5j1ke714.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">72087602087</string>
+    <string name="google_api_key" translatable="false">AIzaSyDWCY7ppBti8p48gj2HjedMhJ2gy-RLVvk</string>
+    <string name="google_app_id" translatable="false">1:72087602087:android:21b28c783cec80d0722c82</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDWCY7ppBti8p48gj2HjedMhJ2gy-RLVvk</string>
+    <string name="google_storage_bucket" translatable="false">parqueocartaguito.appspot.com</string>
+    <string name="project_id" translatable="false">parqueocartaguito</string>
+</resources>

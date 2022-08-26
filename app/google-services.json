@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "72087602087",
+    "project_id": "parqueocartaguito",
+    "storage_bucket": "parqueocartaguito.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:72087602087:android:21b28c783cec80d0722c82",
+        "android_client_info": {
+          "package_name": "com.proyectofinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "72087602087-4dkpaub481d5314pcve83mfo5j1ke714.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWCY7ppBti8p48gj2HjedMhJ2gy-RLVvk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "72087602087-4dkpaub481d5314pcve83mfo5j1ke714.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
